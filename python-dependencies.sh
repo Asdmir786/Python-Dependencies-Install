@@ -9,3 +9,5 @@ sudo apt-get install build-essential gdb lcov pkg-config \
     lzma lzma-dev tk-dev uuid-dev zlib1g-dev libmpdec-dev #libmpdec-dev is not needed in debian 12 or ubuntu 24
 
 #Note that Debian 12 and Ubuntu 24.04 do not have the libmpdec-dev package. You can safely remove it from the install list above and the Python build will use a bundled version.
+
+#sudo chmod +x python-dependencies.sh to run it as executeable meaning making it executeable or else it's just a .txt file for the OS
